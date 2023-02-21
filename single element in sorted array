@@ -1,0 +1,9 @@
+class Solution {
+    public int singleNonDuplicate(int[] nums) {
+        int exr=0;
+        for(int i=0;i<nums.length;i++){
+            exr^=nums[i];
+        }
+        return exr;
+    }
+}
